@@ -7,9 +7,9 @@ int main(int argc, char* argv[]){
     Mat inputImg, procImg, inputCopy;
     
     std::ofstream outputFile;
-    std::cout << "Usage:\n";
-    std::cout << "ARG1: DEFAULT: NikitaSampleImg.png, image path otherwise\n";
-    std::cout << "Calculates centreline and outputs its points as a csv with teh same name as the input file.";
+    // std::cout << "Usage:\n";
+    // std::cout << "ARG1: DEFAULT: NikitaSampleImg.png, image path otherwise\n";
+    // std::cout << "Calculates centreline and outputs its points as a csv with teh same name as the input file.";
     
     std::string inputPath;
     if(argc == 2){
